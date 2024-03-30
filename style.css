@@ -1,0 +1,130 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Barlow Semi Condensed';
+    background-color: #ecf1f7;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+div, section{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 5%; */
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    /* width: 60%;
+    height: 60%; */
+    width: 1100px;
+    height: 600px;
+    display: flex;
+    margin-top: 5%;
+    /* overflow: hidden;    */
+}
+.right{
+    background-color: white;
+    flex: 18.5%;
+    display: flex;
+}
+.full{
+    flex:100%
+}
+.left{
+    flex: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.5%;
+}
+.top{
+    flex: 48.5%;
+    display: flex;
+    margin-bottom: 2.5%;
+}
+.down{
+    flex: 48.5%;
+    display: flex;
+}
+.t-left, .d-right{   
+    flex: 72%;
+}
+.t-right,.d-left{
+    flex: 28%;
+}
+.t-left{
+    background-color:hsl(263, 55%, 52%);
+    margin-right: 1.5vw;
+}
+.t-right{
+    background-color: hsl(217, 19%, 35%);
+}
+.d-left{
+    background-color: white;
+    margin-right: 1.5vw;
+    
+}
+.d-right{
+    background-color: hsl(219, 29%, 14%);
+    
+}
+
+.t-left, .d-right,.t-right,.d-left,.right{
+    border-radius: 7px;
+    padding-top: 1vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+.comp{
+    color: hsl(217, 19%, 35%)
+}
+.boldinfo{
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.nonboldinfo{
+    font-weight: 500;
+    line-height: 2vh;
+}
+.top .personal, .d-right .personal,.top .nonboldinfo, .d-right .nonboldinfo{
+    color: hsl(0, 0%, 81%);
+}
+.top .personal .position, .d-right .personal .position{
+    opacity: 0.5;
+}
+.top .nonboldinfo, .d-right .nonboldinfo{
+    opacity: 0.7;
+}
+.top .boldinfo, .d-right .boldinfo{
+    color: hsl(210, 46%, 95%);
+}
+.right .position , .d-left .position{
+    opacity: 0.5;
+}
+.right .nonboldinfo, .d-left .nonboldinfo{
+    opacity: 0.7;
+}
+.personal{
+    line-height: 0.3vh;
+    display: flex;
+    align-items: center;
+    
+}
+.position{
+    font-size: 0.7rem;
+}
+img{
+    margin-right: 1vw;
+    border-radius: 50%;
+    border: 2px solid wheat;
+    width: 1.8vw;
+}
+
+
